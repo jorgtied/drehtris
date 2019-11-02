@@ -1,0 +1,159 @@
+
+
+     ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+     º   ÚÄÄÄ·                                                     ÚÜÜÜ¿   º
+     º   ³ÜÄÜº          DREHTRIS - Spiel der Spitzenklasse         ³úo ³   º
+     º   Àßßß½                                                     ÀÄĞÄÙ   º
+     ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+
+
+** Einleitung **
+----------------
+
+Ich gratuliere Dir zu dem Besitz der Demo-Version des fesselnden 
+Geschickligkeitsspiels DREHTRIS.
+Ist es nicht eine nette Variante des allseits bekannten Tetris und eine 
+bedeutende Aufwertung eines jeden DOS-Rechners.
+DREHTRIS ist besonders eine Herausforderung fr alle Tetris-Profis und 
+-Verrckten, denen das simple Aufeinanderstapeln von Steinen schon zu langwei-
+lig geworden ist, aber die sich nicht von diesem Spiel losreissen k”nnen.
+Denn bei DREHTRIS kommt es vor allem auch auf die Taktik an:
+  St„ndiges Vorausdenken an die n„chste Rotation des Feldes,
+  nicht zu hohes Stapeln der Steine bei 180ø - Felddrehung,
+  auf die richtige Seite des Feldes stapeln bei 90ø - Rotation...
+
+Also dann wnsche ich Dir viel Spaá und viele Highscores.
+
+
+** Neuerungen bei Drehtris 2.0 **
+---------------------------------
+
+Mit dem Unwesentlichsten aber Aufwendigsten angefangen, das Outfit hat sich
+ver„ndert durch die neuen Button, die auch mit der Maus bedient werden
+k”nnen. Zwischen den Buttons kann mit <TAB> bzw. <SHIFT TAB> oder mit
+<CURSORUP> bzw. <CURSORDOWN> gewechselt werden. Gedrckt werden kann 
+mit <SPACE> oder <ENTER>.
+Die entscheidenste nderung aber ist die M”glichkeit, nun auch eigene
+Spielmodi zu erstellen. Wahrscheinlich hat es Dich auch schon ge„rgert, daá
+sich ausgerechnet zu einem ungnstigen Zeitpunkt das Feld dann auch noch
+um 90ø dreht. Darum gibt es jetzt 9 neue User-Modi, die umdefiniert werden
+k”nnen. Folgende Einstellungen sind m”glich:
+  - Drehzeitpunkt: gibt an, nach wieviel Steinen sich das Feld jeweils drehen
+                   soll (m”glich ist 2-200)
+  - Drehanzahl 1 bzw. 2: geben an, wieviel 90ø-Drehungen das Feld zu dem an-
+                         gegebenen Drehzeitpunkt machen soll,
+                         zuerst gilt Drehanzahl 1, nach der bei Drehwechsel
+                         angegebenen Anzahl von Drehzeitpunkten gilt
+                         Drehanzahl 2 und dann wieder Drehanzahl 1 usw.
+Auáerdem kann zwischen "konstant" und "zuf„llig" gew„hlt werden. Bei "konstant"
+wird genau der eingestellte Wert genommen, bei "zuf„llig" wird ein zuf„lliger
+Wert zwischen 0.5xZahl und 1.5xZahl gew„hlt (fr jede Drehung neu).
+Bei "konstanter" Drehrichtung wird st„ndig zwischen Rechts- und Linksdrehung
+gewechselt, bei "zuf„llig" dreht sich das Feld in eine zuf„llige Richtung.
+
+In der Demoversion werden in den User-Modi keine Highscores gespeichert.
+Die Punkteverteilung der Usermodi ist etwas anders als sonst (siehe unten).
+Ich hoffe, so ist sie gerechter.
+Der Spielmodus 0 ist der alte der Vorg„ngerversion.
+
+Eine weitere ntzliche Erweiterung ist die Taste fr schnelles
+nach-unten-fallen. Sollte ein Stein speziell bei 90ø-Drehungen waagerecht
+in eine Lcke geschoben werden, so muáte bisher gewartet werden, bis er dort
+endlich angekommen war. Jetzt kann man den Stein mit <CURSORDOWN> schneller
+nach unten fallen lassen, was Zeit spart und Langeweile vermeidet.
+
+Mit den neuen Spielmodi gibt es nun 400 verschiedene Spieleinstellungen und
+hoffentlich einen langanhaltenden Spielspaá !
+
+
+
+** Bedienung **
+---------------
+
+Nach dem Start des Programms erscheint nach dem Anfangsbildchen die Menleiste
+zusammen mit der Highscore-Tabelle der aktuellen Spielvariante.
+
+* Einzelspiel
+
+      Start mit <F3>
+      Tastaturbelegung : <CURSORLEFT>  - Linksverschieben des Steins
+                         <CURSORRIGHT> - Rechtsverschieben des Steins
+                         <CURSORUP>    - Drehen des Steins
+                         <CURSORDOWN>  - schnelles Fallen des Steins
+                         <SPACE>       - sofortiges Fallen des Steins
+                                         nach ganz unten
+
+      Nach bestimmten Anzahlen von gefallenen Spielsteinen wird das Feld
+      gedreht, anfangs um 180ø und sp„ter dann um 90ø oder auch zuf„llig.
+      In den Spielmodi 1-9 k”nnen eigene Einstellungen zu Drehzeitpunkt,
+      Drehanzahlen und Drehrichtungen gemacht werden. (->Optionen->Modify)
+      Das Einzelspiel kann variiert werden in Fallgeschwindigkeit und Spiel-
+      steingr”áe ber den Optionen-Menpunkt (F2).
+
+      Fallgeschwindigkeit: (langsam) 0....9 (schnell)
+      Spielsteingr”áe : Diese kann in der Demoversion nicht ge„ndert
+			werden (konstant 15x15)
+
+* Doppel
+
+      Hier l„uft in der Demoversion nur automatisch ein Spiel ab, um einen
+      Eindruck eines Doppelspiels zu bekommen.
+
+* Allgemein
+
+Mit der <PAUSE>-Taste kann das Spiel angehalten werden.
+
+Punktverteilung:
+      Es gibt fr jeden verbauten Stein und fr jede vollst„ndige Linie
+      Punkte. Die Anzahl der Punkte dafr steigt im Verlauf des Spiels.
+      In den Spielmodi 1-9 werden die Punkte etwas anders vergeben:
+        - wer den Stein mit <SPACE> fallen l„át, kriegt je nach H”he
+          Bonuspunkte (erh”htes Risiko)
+        - werden mit einem Stein mehrere Linien vervollst„ndigt, so gibt es
+          mehr Punkte als die Summe der Punkte fr die einzelnen
+          Linien ergeben wrde
+
+Punkte und Anzahl vollst„ndiger Linien werden angezeigt und in den S„ulen-
+digrammen mit den derzeitigen Highscores verglichen.
+
+Weitere Menpunkte:
+-------------------
+
+* F1 - Anzeige von 2 Hilfebildschirmen
+* F2 - Optionen-Men
+
+Hotkeys im Options-Men
+-----------------------
+
+<0>..<9>           - Spielmodus ausw„hlen
+<ALT 1>..<ALT 4>   - Spielfeld (Spielsteingr”áe) einstellen
+<ALT a>            - Sound an
+<Alt s>            - Sound aus
+<STRG CursorLeft>  - Geschwindigkeit-1
+<STRG CursorRight> - Geschwindigkeit+1
+<ALT m>            - Modify
+
+
+Wer eine Soundblaster kompatible Karte in seinem Rechner hat und gern ein wenig
+Musik im Hintergrund dudeln lassen m”chte, brauch nur einen CMF-Sound-Treiber
+geladen haben.
+
+
+Also dann,
+		viel Spaá beim Spielen !
+
+                                        Bye, bye !
+
+						J”rg Tiedemann
+
+
+
+
+PS:
+An dieser Stelle m”chte ich allen danken, die mit Tips und Hinweisen und 
+ihrem Programmier-Know-How maágeblich zu dem Erscheinungsbild dieses Spiels
+beigetragen haben. Auf die Gefahr hin, daá ich jemanden vergesse, m”chte
+ich an dieser Stelle Lars (vor allem fr die CMF-Untersttzung), die ewigen
+N”rgler Martin, Katrin, Marco, Matthias, Christian, Thomas und Steffen nennen,
+die mit ihren Beanstandungen und Neuerungswnschen zu st„ndigen Verbesserungen
+angeregt haben.
