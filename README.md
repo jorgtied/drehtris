@@ -3,6 +3,8 @@
 
 An old Tetris variant for MS DOS from 1993 with a rotating field as well as a two-player mode. The original program in Pascal seems to be lost but the binaries still exist and are preserved here. The original version was distributed as shareware with a small fee for updating to the full version. Those were the times. The game can still be played on common DOS emulators like DOSBox (https://www.dosbox.com) with its frontends for various operating systems. I successfully used it on my Mac with the Boxerapp from http://boxerapp.com.
 
+This is the Shareware branch. It is kept here for archiving purposes. The non-restricted version is in the master branch.
+
 
 ## Quickstart
 
