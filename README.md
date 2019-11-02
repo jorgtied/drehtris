@@ -16,6 +16,8 @@ An old Tetris variant for MS DOS from 1993 with a rotating field as well as a tw
 
 The game works like standard Tetris with the additional twist that the entire field rotates from time to time. In the beginning it does this with a 180 degrees rotation but later there will be 90 degree rotations as well. Make sure that you build your structures to cope with those rotations. Drehtris features different modes that can even be customized with different field size, speed and rotation schedules. I don't remember the exact details. It keeps a "hall of fame" for each setup.
 
+![screenshot](DREHTRIS.png "Drehtris Screenshot")
+
 
 ## The two-player mode
 
